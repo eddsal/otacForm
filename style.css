@@ -147,7 +147,7 @@
   cursor: pointer;
 }
 .h-100 {
-margin-top: 30vh !important;
+margin-top: 10vh !important;
 }
 
 .column {
@@ -157,23 +157,31 @@ margin-top: 30vh !important;
 }
 
 .column img {
-  width: 10vw;
+  width: 5vw;
  }
  .inner-column { 
    width: 95%;
-   display: inline-block;
+   display: flex;
+   align-items: flex-start;
  }
  .inner-column p {
-  padding: 20px 40px 20px 40px;
+  padding: 8px 9px 37px 7px;
   line-height: 35px;
   float: right;
 
+  
  }
+ .inner-column span {
+font-size: 10px;  
+display: flex;
+justify-content: flex-start ;
+ }
+ 
  
  .inner-column img{ 
   float: left;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 50px;
 }
 .lead{
   margin-top: 50px;
